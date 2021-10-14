@@ -8,8 +8,3 @@ terraform {
     }
   }
 }
-
-provider "twilio" {
-  account_sid = var.account_sid
-  auth_token  = var.auth_token
-}
