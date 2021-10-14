@@ -1,13 +1,3 @@
-variable "account_sid" {
-  type        = string
-  description = "Twilio account SID"
-}
-
-variable "auth_token" {
-  type        = string
-  description = "Twilio auth token"
-}
-
 variable "country_code" {
   type        = string
   default     = "US"
