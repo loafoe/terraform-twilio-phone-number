@@ -3,7 +3,7 @@ output "sid" {
   value       = twilio_phone_number.number.sid
 }
 
-output "number" {
+output "phone_number" {
   description = "The phone number"
-  value       = twilio_phone_number.number.number
+  value       = twilio_phone_number.number.phone_number
 }
