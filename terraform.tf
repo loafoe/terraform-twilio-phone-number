@@ -3,8 +3,8 @@ terraform {
 
   required_providers {
     twilio = {
-      source  = "Preskton/twilio"
-      version = ">= 0.1.6"
+      source = "RJPearson94/twilio"
+      version = "0.16.0"
     }
   }
 }
