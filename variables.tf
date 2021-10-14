@@ -1,3 +1,8 @@
+variable "account_sid" {
+  type        = string
+  description = "Account SID to associate resources to"
+}
+
 variable "country_code" {
   type        = string
   default     = "US"
